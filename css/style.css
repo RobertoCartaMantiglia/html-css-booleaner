@@ -5,15 +5,19 @@ header{
 #nomegiornale{
     height: 150px;
     width: 250px;
-    text-align: left;
-    
+    text-align: left;    
 }   
 
 #booleaners{
     color: lightseagreen;
 }
+
 #titolo_principale{
     font-size: 2.5rem;
+}
+
+h3{
+    color: grey;
 }
 
 #data{
@@ -22,8 +26,23 @@ header{
 .descrizione_foto{
     font-size: smaller;
 }
-.trdispari{
-    background-color: darkcyan;
+/* tabella */
+.tabella{
+    box-sizing: border-box;
+}
+.trtitolo{
+    background-color: rgb(0, 119, 255);
+}
+.trdispari {
+    background-color: lightblue;
+}
+
+.evidenzia{
+    background-color: yellow;
+}
+.imgfooter{
+    height: 500px;
+    width: 500px;
 }
 
 
